@@ -30,7 +30,7 @@
 <body class="{{ !empty($has_sticky_sidebar) ? '' : 'navbar-top' }}{{ $body_class }}">
     <div class="navbar navbar-inverse bg-indigo{{ !empty($has_sticky_sidebar) ? '' : ' navbar-fixed-top' }}">
         <div class="navbar-header">
-            <a class="navbar-brand text-semibold" href="{{ route('forms.index') }}">{{ config('app.name') }} <i class="icon-pencil7 position-right"></i></a>
+            <a class="navbar-brand text-semibold" href="{{ route('forms.index') }}"> {{ config('app.name') }} <i class="icon-pencil7 position-right"></i></a>
 
             <ul class="nav navbar-nav pull-right visible-xs-block">
                 <li><a data-toggle="collapse" data-target="#navbar-mobile"><i class="icon-tree5"></i></a></li>

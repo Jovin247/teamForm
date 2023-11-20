@@ -188,7 +188,6 @@ class FormController extends Controller
                 'linear_scale.*.options.max.label' => 'nullable|string|min:3|max:255',
                 'date.*.question' => 'sometimes|required|string|min:3|max:255',
                 'time.*.question' => 'sometimes|required|string|min:3|max:255',
-                'color_picker.*.'
             ]);
 
             if ($validator->fails()) {

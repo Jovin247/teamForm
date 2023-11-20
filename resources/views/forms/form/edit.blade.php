@@ -20,4 +20,4 @@
             @include('forms.form._form', ['type' => 'edit'])
         </div>
     </div>
-@endsection
+@endsection 

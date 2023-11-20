@@ -84,8 +84,8 @@
 					<ul class="navigation navigation-alt navigation-accordion" data-form="{{ $form->code }}">
                         <li class="navigation-header">Add your custom Styles</li>
                         {{-- <li><a href="javascript:void()"> Font</a></li> --}}
-                        {{-- <li><a href="javascript:void()" class="question-template" data-id="font-picker" >  <i class="icon-menu4" aria-hidden="true"  ></i>Font</a></li> --}}
-                        <li>
+                        <li><a href="javascript:void()" class="question-template"   data-id="font-picker" >  <i class="icon-menu4" aria-hidden="true"  ></i>Font</a></li>
+                        {{-- <li>
                             <a href="javascript:void()" class="question-template" data-id="font-picker">
                                 <i class="icon-menu4" aria-hidden="true"></i>
                                 Font
@@ -98,7 +98,7 @@
                                     <!-- Add more font options as needed -->
                                 </select>
                             </div>
-                        </li>
+                        </li> --}}
 
                         <li><a href="javascript:void()" class="question-template" data-id="color-picker" >  <i class="icon-menu4" aria-hidden="true"  ></i>Color</a></li>
                         <li class="navigation-divider"></li>

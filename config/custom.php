@@ -3,7 +3,7 @@
 return [
     'app' => [
         'owner' => [
-            'name' => env('APP_OWNER', 'Kennedy Osaze'),
+            'name' => env('APP_OWNER', 'SOFT FORM'),
             'url' => env('APP_OWNER_URL', '#'),
         ]
     ],
